@@ -33,7 +33,6 @@ public class checkout extends javax.swing.JFrame {
 
    
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -70,13 +69,13 @@ public class checkout extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(153, 153, 255));
         jPanel1.setLayout(null);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); 
         jLabel1.setText("Room Allocation");
         jPanel1.add(jLabel1);
         jLabel1.setBounds(190, 0, 215, 42);
 
         btnadd.setBackground(new java.awt.Color(204, 204, 255));
-        btnadd.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnadd.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         btnadd.setText("SUBMIT");
         btnadd.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnadd.setEnabled(false);
@@ -89,7 +88,7 @@ public class checkout extends javax.swing.JFrame {
         btnadd.setBounds(200, 490, 110, 27);
 
         btn10.setBackground(new java.awt.Color(204, 204, 255));
-        btn10.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn10.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         btn10.setText("CANCEL");
         btn10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btn10.addActionListener(new java.awt.event.ActionListener() {
@@ -102,13 +101,13 @@ public class checkout extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(153, 153, 255));
 
-        jLabel14.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel14.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel14.setText("Name");
 
-        jLabel15.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel15.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel15.setText("Phone");
 
-        jLabel16.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel16.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel16.setText("Patient Id");
 
         txtPatient.setEnabled(false);
@@ -119,7 +118,7 @@ public class checkout extends javax.swing.JFrame {
         });
 
         btnSearch.setBackground(new java.awt.Color(204, 204, 255));
-        btnSearch.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnSearch.setFont(new java.awt.Font("Times New Roman", 1, 14)); 
         btnSearch.setText("Search");
         btnSearch.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSearch.setEnabled(false);
@@ -153,7 +152,7 @@ public class checkout extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel2.setText("Disease");
 
         txtDiseases.setEnabled(false);
@@ -163,7 +162,7 @@ public class checkout extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel3.setText("Allocation Id");
 
         txtId.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -225,7 +224,7 @@ public class checkout extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(153, 153, 255));
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel9.setText("Room No");
 
         cmbRoomtype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Select", "Ac Room", "Normal " }));
@@ -256,13 +255,13 @@ public class checkout extends javax.swing.JFrame {
             }
         });
 
-        jLabel11.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel11.setText("Price");
 
-        jLabel10.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel10.setText("Room Type");
 
-        jLabel17.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel17.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel17.setText("Date(YYYY/MM/DD)");
 
         txtDate.addActionListener(new java.awt.event.ActionListener() {
@@ -277,7 +276,7 @@ public class checkout extends javax.swing.JFrame {
         });
 
         btnPrice.setBackground(new java.awt.Color(204, 204, 255));
-        btnPrice.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnPrice.setFont(new java.awt.Font("Times New Roman", 1, 14)); 
         btnPrice.setText("Show Price");
         btnPrice.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnPrice.setEnabled(false);
@@ -352,7 +351,7 @@ public class checkout extends javax.swing.JFrame {
         jPanel3.setBounds(30, 270, 530, 190);
 
         btnNew.setBackground(new java.awt.Color(204, 204, 255));
-        btnNew.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnNew.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         btnNew.setText("NEW");
         btnNew.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnNew.addActionListener(new java.awt.event.ActionListener() {
@@ -363,7 +362,7 @@ public class checkout extends javax.swing.JFrame {
         jPanel1.add(btnNew);
         btnNew.setBounds(30, 490, 90, 27);
 
-        jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); 
         jButton2.setText("Home");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -388,15 +387,13 @@ public class checkout extends javax.swing.JFrame {
 
         pack();
         setLocationRelativeTo(null);
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void txtPriceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPriceActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtPriceActionPerformed
+    private void txtPriceActionPerformed(java.awt.event.ActionEvent evt) {
+    }
 
-    private void btnaddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnaddActionPerformed
+    private void btnaddActionPerformed(java.awt.event.ActionEvent evt) {
 
-        // TODO add your handling code here:
         int  AId=Integer.parseInt(txtId.getText());
         int PId=Integer.parseInt(txtPatient.getText());
         String name=txtName.getText();
@@ -442,11 +439,10 @@ public class checkout extends javax.swing.JFrame {
       }
         
         
-    }//GEN-LAST:event_btnaddActionPerformed
+    }
 
-    private void btn10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn10ActionPerformed
-        // TODO add your handling code here:
-       // new menu().setVisible(true);
+    private void btn10ActionPerformed(java.awt.event.ActionEvent evt) {
+       
         txtId.setEnabled(false);
         txtPatient.setEnabled(false);
         txtName.setEnabled(false);
@@ -471,14 +467,11 @@ public class checkout extends javax.swing.JFrame {
          txtPatient.setText("");
          
          
-    }//GEN-LAST:event_btn10ActionPerformed
 
-    private void txtPatientActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPatientActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtPatientActionPerformed
+    private void txtPatientActionPerformed(java.awt.event.ActionEvent evt) {
+    }
 
-    private void btnSearchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSearchActionPerformed
-        // TODO add your handling code here:
+    private void btnSearchActionPerformed(java.awt.event.ActionEvent evt) {
       
       if(txtPatient.getText().isEmpty())
       {
@@ -509,14 +502,11 @@ public class checkout extends javax.swing.JFrame {
         }   
        
         
-    }//GEN-LAST:event_btnSearchActionPerformed
+    }
 
-    private void txtPhoneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPhoneActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtPhoneActionPerformed
-
-    private void cmbRoomtypeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbRoomtypeActionPerformed
-        // TODO add your handling code here:
+    private void txtPhoneActionPerformed(java.awt.event.ActionEvent evt) {
+    }
+    private void cmbRoomtypeActionPerformed(java.awt.event.ActionEvent evt) {
         String roomtype=cmbRoomtype.getSelectedItem().toString();
       cmbRoom.removeAllItems();
       cmbRoom.addItem("Select");
@@ -536,15 +526,13 @@ public class checkout extends javax.swing.JFrame {
         catch(Exception ex){
           JOptionPane.showMessageDialog(this,ex.getMessage());  
         }
-    }//GEN-LAST:event_cmbRoomtypeActionPerformed
+    }
 
-    private void cmbRoomActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbRoomActionPerformed
-        // TODO add your handling code here:
+    private void cmbRoomActionPerformed(java.awt.event.ActionEvent evt) {
          
-    }//GEN-LAST:event_cmbRoomActionPerformed
+    }
 
-    private void btnPriceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPriceActionPerformed
-        // TODO add your handling code here:
+    private void btnPriceActionPerformed(java.awt.event.ActionEvent evt) {
         if(cmbRoom.getSelectedItem()=="Select")
         {
             JOptionPane.showMessageDialog(null,"please select Room no. first.");
@@ -557,7 +545,6 @@ public class checkout extends javax.swing.JFrame {
         rs=st.executeQuery(query);
         if(rs.next())
         {
-         //cmbroomtype.setSelectedItem(rs.getString("Room_type"));
          txtPrice.setText(rs.getString("price"));   
         
          
@@ -570,16 +557,12 @@ public class checkout extends javax.swing.JFrame {
         catch(Exception ex){
           JOptionPane.showMessageDialog(this,ex.getMessage());  
         }
-    }//GEN-LAST:event_btnPriceActionPerformed
+    }
 
-    private void btnNewActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNewActionPerformed
-        // TODO add your handling code here:
+    private void btnNewActionPerformed(java.awt.event.ActionEvent evt) {
          String query1="select allocation_id  from room_Allocation";
         
-       // btnok.setEnabled(true);
-        //btnnew.setEnabled(false);
-       // txtroom.setEnabled(true);
-       //cmbroomtype.setEnabled(true);
+      
        txtPatient.setEnabled(true);
        btnSearch.setEnabled(true);
        int id=101;
@@ -593,7 +576,6 @@ public class checkout extends javax.swing.JFrame {
        }
        txtId.setText(Integer.toString(id));
        
-      // txtroom.requestFocus();
        }
        catch(Exception ex)
        {
@@ -601,60 +583,49 @@ public class checkout extends javax.swing.JFrame {
        }
        btnadd.setEnabled(true);
        btnNew.setEnabled(false);
-    }//GEN-LAST:event_btnNewActionPerformed
+    }
 
-    private void txtNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNameActionPerformed
-        // TODO add your handling code here:
+    private void txtNameActionPerformed(java.awt.event.ActionEvent evt) {
         
-    }//GEN-LAST:event_txtNameActionPerformed
+    }
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
         this.dispose();
         new NewMain().setVisible(true);
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
 
-    private void txtNameKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtNameKeyTyped
-        // TODO add your handling code here:
+    private void txtNameKeyTyped(java.awt.event.KeyEvent evt) {
         char c=evt.getKeyChar();
-         //JOptionPane.showMessageDialog(this, c);
         if((c>= 'a' && c<= 'z') || c==8)
         {
             
         }
         else
         evt.consume();
-    }//GEN-LAST:event_txtNameKeyTyped
+    }
 
-    private void txtPhoneKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtPhoneKeyTyped
-        // TODO add your handling code here:
+    private void txtPhoneKeyTyped(java.awt.event.KeyEvent evt) {
         char c=evt.getKeyChar();
-         //JOptionPane.showMessageDialog(this, c);
         if((c>= '0' && c<= '9') || c==8)
         {
             
         }
         else
         evt.consume();
-    }//GEN-LAST:event_txtPhoneKeyTyped
+    }
 
-    private void txtDiseasesKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtDiseasesKeyTyped
-        // TODO add your handling code here:
+    private void txtDiseasesKeyTyped(java.awt.event.KeyEvent evt) {
         char c=evt.getKeyChar();
-         //JOptionPane.showMessageDialog(this, c);
         if((c>= 'a' && c<= 'z') || c==8)
         {
             
         }
         else
         evt.consume();
-    }//GEN-LAST:event_txtDiseasesKeyTyped
+    }
 
-    private void txtPriceKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtPriceKeyTyped
-        // TODO add your handling code here:char c=evt.getKeyChar();
-         //JOptionPane.showMessageDialog(this, c);
+    private void txtPriceKeyTyped(java.awt.event.KeyEvent evt) {
         char c=evt.getKeyChar();
-         //JOptionPane.showMessageDialog(this, c);
         if((c>= '0' && c<= '9') || c==8)
         {
             
@@ -662,23 +633,20 @@ public class checkout extends javax.swing.JFrame {
         else
         evt.consume();
       
-    }//GEN-LAST:event_txtPriceKeyTyped
+    }
 
-    private void txtDateKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtDateKeyTyped
-        // TODO add your handling code here:
+    private void txtDateKeyTyped(java.awt.event.KeyEvent evt) {
         char c=evt.getKeyChar();
-         //JOptionPane.showMessageDialog(this, c);
         if((c>= '0' && c<= '9') || c==8 || c=='/')
         {
             
         }
         else
         evt.consume();
-    }//GEN-LAST:event_txtDateKeyTyped
+    }
 
-    private void txtDateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDateActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtDateActionPerformed
+    private void txtDateActionPerformed(java.awt.event.ActionEvent evt) {
+    }
 
    
     public static void main(String args[]) {
@@ -699,7 +667,6 @@ public class checkout extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(checkout.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -708,7 +675,6 @@ public class checkout extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn10;
     private javax.swing.JButton btnNew;
     private javax.swing.JButton btnPrice;
@@ -737,5 +703,4 @@ public class checkout extends javax.swing.JFrame {
     private javax.swing.JTextField txtPatient;
     private javax.swing.JTextField txtPhone;
     private javax.swing.JTextField txtPrice;
-    // End of variables declaration//GEN-END:variables
 }
