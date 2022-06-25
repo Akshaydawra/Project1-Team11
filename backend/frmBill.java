@@ -7,9 +7,7 @@ import javax.swing.JOptionPane;
 
 public class frmBill extends javax.swing.JFrame {
 
-    /**
-     * Creates new form frmBill
-     */
+   
     Connection con;
     Statement st;
     ResultSet rs;
@@ -34,7 +32,6 @@ public class frmBill extends javax.swing.JFrame {
 
     
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jPopupMenu1 = new javax.swing.JPopupMenu();
@@ -73,13 +70,13 @@ public class frmBill extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(153, 153, 255));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel1.setText("Patient Id");
 
         txtpatient.setEnabled(false);
 
         btnsearch.setBackground(new java.awt.Color(204, 204, 255));
-        btnsearch.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnsearch.setFont(new java.awt.Font("Times New Roman", 1, 14)); 
         btnsearch.setText("Search");
         btnsearch.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnsearch.setEnabled(false);
@@ -89,10 +86,10 @@ public class frmBill extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel2.setText("Name");
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel3.setText("Mobile");
 
         txtphone.setEnabled(false);
@@ -102,7 +99,7 @@ public class frmBill extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel4.setText("Disease");
 
         txtdiseases.setEnabled(false);
@@ -112,7 +109,7 @@ public class frmBill extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel5.setText("Room No");
 
         txtroomNo.setEnabled(false);
@@ -122,7 +119,7 @@ public class frmBill extends javax.swing.JFrame {
             }
         });
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel9.setText("Bill Id");
 
         txtbillId.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -139,10 +136,10 @@ public class frmBill extends javax.swing.JFrame {
             }
         });
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 24)); 
         jLabel8.setText("Patient Bill");
 
-        jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); 
         jButton2.setText("Home");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -249,7 +246,7 @@ public class frmBill extends javax.swing.JFrame {
             }
         });
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel7.setText("Total Price");
 
         txttotalprice.setEnabled(false);
@@ -260,7 +257,7 @@ public class frmBill extends javax.swing.JFrame {
         });
 
         btncalculate.setBackground(new java.awt.Color(204, 204, 255));
-        btncalculate.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btncalculate.setFont(new java.awt.Font("Times New Roman", 1, 14)); 
         btncalculate.setText("Calculate");
         btncalculate.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btncalculate.setEnabled(false);
@@ -270,7 +267,7 @@ public class frmBill extends javax.swing.JFrame {
             }
         });
 
-        jLabel10.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jLabel10.setText("Room Price");
 
         txtprice.setEnabled(false);
@@ -281,7 +278,7 @@ public class frmBill extends javax.swing.JFrame {
         });
 
         btnnew.setBackground(new java.awt.Color(204, 204, 255));
-        btnnew.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnnew.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         btnnew.setText("NEW");
         btnnew.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnnew.addActionListener(new java.awt.event.ActionListener() {
@@ -291,7 +288,7 @@ public class frmBill extends javax.swing.JFrame {
         });
 
         btnadd.setBackground(new java.awt.Color(204, 204, 255));
-        btnadd.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnadd.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         btnadd.setText("SUBMIT");
         btnadd.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnadd.setEnabled(false);
@@ -302,7 +299,7 @@ public class frmBill extends javax.swing.JFrame {
         });
 
         jButton4.setBackground(new java.awt.Color(204, 204, 255));
-        jButton4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton4.setFont(new java.awt.Font("Tahoma", 1, 18)); 
         jButton4.setText("CANCEL");
         jButton4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -385,10 +382,9 @@ public class frmBill extends javax.swing.JFrame {
 
         pack();
         setLocationRelativeTo(null);
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void btnnewActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnnewActionPerformed
-        // TODO add your handling code here:
+    private void btnnewActionPerformed(java.awt.event.ActionEvent evt) {
         String query1="select billId  from bill";
           int id=101;
        try
@@ -410,10 +406,9 @@ public class frmBill extends javax.swing.JFrame {
        {
            System.out.print(ex.getMessage());
        }
-    }//GEN-LAST:event_btnnewActionPerformed
+    }
 
-    private void btnsearchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsearchActionPerformed
-        // TODO add your handling code here:
+    private void btnsearchActionPerformed(java.awt.event.ActionEvent evt) {
        
       if(txtpatient.getText().isEmpty())
       {
@@ -444,8 +439,7 @@ public class frmBill extends javax.swing.JFrame {
         }   
     }
 
-    private void btnaddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnaddActionPerformed
-        // TODO add your handling code here:
+    private void btnaddActionPerformed(java.awt.event.ActionEvent evt) {
         if(txtpatient.getText().isEmpty())
       {
           JOptionPane.showMessageDialog(this,"Enter Patient Id First" );
@@ -458,13 +452,10 @@ public class frmBill extends javax.swing.JFrame {
       }
         int bId=Integer.parseInt(txtbillId.getText());
         int PId=Integer.parseInt(txtpatient.getText());
-        //String name=txtname.getText();
-        //String phone=txtphone.getText();
-        //String disease=txtdiseases.getText();
+       
         int roomno=Integer.parseInt(txtroomNo.getText());
         int price=Integer.parseInt(txttotalprice.getText());
         int days=Integer.parseInt(txtdays.getText());
-        //String totalamount=txttotalprice.getText();
         String query ="insert into bill values(" + bId+"," + PId + ","  + roomno+ "," +  days + "," +  price + ")";
           int res = JOptionPane.showConfirmDialog(null, "Do you want to save record?", "Confirm",
         JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
@@ -501,17 +492,14 @@ public class frmBill extends javax.swing.JFrame {
         
         
         
-    }//GEN-LAST:event_btnaddActionPerformed
+    }
 
-    private void btncalculateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btncalculateActionPerformed
-        // TODO add your handling code here:
+    private void btncalculateActionPerformed(java.awt.event.ActionEvent evt) {
          int price=Integer.parseInt(txtprice.getText());
         int days=Integer.parseInt(txtdays.getText());
         txttotalprice.setText(Integer.toString(price*days));
-    }//GEN-LAST:event_btncalculateActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
+    }
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {
         txtbillId.setEnabled(false);
         txtpatient.setEnabled(true);
         txtroomNo.setEnabled(false);
@@ -533,118 +521,91 @@ public class frmBill extends javax.swing.JFrame {
         txttotalprice.setText("");
         txtdays.setText("");
         
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
          this.dispose();
         new NewMain().setVisible(true);
         
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
 
-    private void txtbillIdKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtbillIdKeyTyped
-        // TODO add your handling code here:
+    private void txtbillIdKeyTyped(java.awt.event.KeyEvent evt) {
         
-    }//GEN-LAST:event_txtbillIdKeyTyped
-
-    private void txtnameKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtnameKeyTyped
-        // TODO add your handling code here:
+    }
+    private void txtnameKeyTyped(java.awt.event.KeyEvent evt) {
          char c=evt.getKeyChar();
-         //JOptionPane.showMessageDialog(this, c);
         if((c>= 'a' && c<= 'z') || c==8)
         {
             
         }
         else
         evt.consume();
-    }//GEN-LAST:event_txtnameKeyTyped
+    }
 
-    private void txtphoneKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtphoneKeyTyped
-        // TODO add your handling code here:
+    private void txtphoneKeyTyped(java.awt.event.KeyEvent evt) {
          char c=evt.getKeyChar();
-         //JOptionPane.showMessageDialog(this, c);
         if((c>= '0' && c<= '9') || c==8)
         {
             
         }
         else
         evt.consume();
-    }//GEN-LAST:event_txtphoneKeyTyped
-
-    private void txtdiseasesKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtdiseasesKeyTyped
-        // TODO add your handling code here:
+    }
+    private void txtdiseasesKeyTyped(java.awt.event.KeyEvent evt) {
          char c=evt.getKeyChar();
-         //JOptionPane.showMessageDialog(this, c);
         if((c>= 'a' && c<= 'z') || c==8)
         {
             
         }
         else
         evt.consume();
-    }//GEN-LAST:event_txtdiseasesKeyTyped
-
-    private void txtroomNoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtroomNoKeyTyped
-        // TODO add your handling code here:
+    }
+    private void txtroomNoKeyTyped(java.awt.event.KeyEvent evt) {
          char c=evt.getKeyChar();
-         //JOptionPane.showMessageDialog(this, c);
         if((c>= '0' && c<= '9') || c==8)
         {
             
         }
         else
         evt.consume();
-    }//GEN-LAST:event_txtroomNoKeyTyped
+    }
 
-    private void txtpriceKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpriceKeyTyped
-        // TODO add your handling code here:
+    private void txtpriceKeyTyped(java.awt.event.KeyEvent evt) {
          char c=evt.getKeyChar();
-         //JOptionPane.showMessageDialog(this, c);
         if((c>= '0' && c<= '9') || c==8)
         {
             
         }
         else
         evt.consume();
-    }//GEN-LAST:event_txtpriceKeyTyped
+    }
 
-    private void txtdaysKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtdaysKeyTyped
-        // TODO add your handling code here:
+    private void txtdaysKeyTyped(java.awt.event.KeyEvent evt) {
          char c=evt.getKeyChar();
-         //JOptionPane.showMessageDialog(this, c);
         if((c>= '0' && c<= '9') || c==8)
         {
             
         }
         else
         evt.consume();
-    }//GEN-LAST:event_txtdaysKeyTyped
+    }
 
-    private void txttotalpriceKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txttotalpriceKeyTyped
-        // TODO add your handling code here:
+    private void txttotalpriceKeyTyped(java.awt.event.KeyEvent evt) {
          char c=evt.getKeyChar();
-         //JOptionPane.showMessageDialog(this, c);
         if((c>= '0' && c<= '9') || c==8)
         {
             
         }
         else
         evt.consume();
-    }//GEN-LAST:event_txttotalpriceKeyTyped
+    }
 
-    private void txtdaysFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtdaysFocusLost
-        // TODO add your handling code here:
+    private void txtdaysFocusLost(java.awt.event.FocusEvent evt) {
         btncalculate.setEnabled(true);
-    }//GEN-LAST:event_txtdaysFocusLost
+    }
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
+        
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -661,9 +622,7 @@ public class frmBill extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(frmBill.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
 
-        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new frmBill().setVisible(true);
@@ -671,7 +630,6 @@ public class frmBill extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnadd;
     private javax.swing.JButton btncalculate;
     private javax.swing.JButton btnnew;
@@ -701,5 +659,4 @@ public class frmBill extends javax.swing.JFrame {
     private javax.swing.JTextField txtprice;
     private javax.swing.JTextField txtroomNo;
     private javax.swing.JTextField txttotalprice;
-    // End of variables declaration//GEN-END:variables
 }
